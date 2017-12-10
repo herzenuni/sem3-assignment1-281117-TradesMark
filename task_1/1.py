@@ -2,7 +2,7 @@
 # Галкин Антон 1 группа 2 курс
 # Задача - Вычислите сумму цифр данного натурального числа
 
-def v():
+def enter():
     number = int(input("Enter the number = "))
     return number
 
@@ -13,7 +13,7 @@ def sum_number(number):
 		sum = sum + int(ch)
 	return sum
 
-def vv(number):
+def out(number):
 	print("Sum of numbers {} = {}".format(number, sum_number(number)))
 
-vv(sum_number(v()))
+out(sum_number(enter()))
